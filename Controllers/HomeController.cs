@@ -7,7 +7,7 @@ namespace MyCiCdApp.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
+    //hi hello
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
